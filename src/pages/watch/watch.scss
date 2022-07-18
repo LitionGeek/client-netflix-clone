@@ -1,0 +1,27 @@
+.watch{
+    width: 100vw;
+    height: 100vh;
+    transition: all 0.1ms ease;
+    .back{
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        color: rgba(255, 255, 255,0.1);
+        cursor: pointer;
+        z-index: 2;
+        margin: 12px 10px;
+        transition: all 0.1ms ease;
+        &:hover{
+            transition: all 0.1ms ease;
+            color: rgb(255, 255, 255);
+        }
+    }
+
+    .videoR{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
